@@ -11,6 +11,10 @@ function HTMLtoPDF() {
 
       name = "Certificate of " + name + ".pdf";
       doc.save(name);
+
+      setTimeout(function () {
+        alert("Downloaded Look into Your Downloads folder");
+      }, 1000);
     },
   });
 }
