@@ -70,4 +70,9 @@ function update() {
     document.getElementById("cert").disabled = false;
     document.getElementById("cert1").disabled = false;
   }
+  HTMLtoPDF();
+
+  setTimeout(function () {
+    HTMLtoPDF();
+  }, 500);
 }
