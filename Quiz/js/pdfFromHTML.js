@@ -64,5 +64,6 @@ function update() {
     alert("Please fill information on start of quiz to generate certificate");
   } else {
     document.getElementById("cert").disabled = false;
+    document.getElementById("cert1").disabled = false;
   }
 }
