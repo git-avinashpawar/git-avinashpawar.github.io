@@ -18,8 +18,11 @@ function HTMLtoPDF() {
 function update() {
   var name = localStorage.getItem("name");
   var org = localStorage.getItem("org");
-  var cat = localStorage.getItem("cat");
-  var email = localStorage.getItem("email");
+
+  if (name == "" || name == null) {
+    alert("Please fill information on start of quiz");
+  }
+
   const score = localStorage.getItem("mostRecentScore");
 
   name = name.replace(/\w\S*/g, function (txt) {
@@ -56,4 +59,10 @@ function update() {
   $(document).bind("scroll", function () {
     window.scrollTo(0, 0);
   });
+
+  if (name == "" || name == null) {
+    alert("Please fill information on start of quiz to generate certificate");
+  } else {
+    document.getElementById("cert").disabled = false;
+  }
 }
