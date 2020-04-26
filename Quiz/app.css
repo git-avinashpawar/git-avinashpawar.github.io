@@ -44,13 +44,13 @@ h3 {
 
 .container {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 80rem;
-  margin: 0 auto;
   padding: 2rem;
+  margin: 0 auto;
 }
 
 .container > * {
@@ -132,4 +132,41 @@ label {
   width: 40rem;
   font-size: 1.8rem;
   border: none;
+}
+
+@media (max-width: 450px) {
+  label {
+    width: 25rem;
+    font-size: 1.2rem;
+    border: none;
+  }
+  input {
+    margin-bottom: 1rem;
+    width: 25rem;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #0703fc;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 > span {
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: 2em;
+    margin-bottom: 4rem;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
 }

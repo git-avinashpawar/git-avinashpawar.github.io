@@ -61,3 +61,8 @@
   background-color: #0703fc;
   width: 0%;
 }
+@media (max-width: 450px) {
+  .choice-container {
+    font-size: 1.3rem;
+  }
+}
