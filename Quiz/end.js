@@ -3,11 +3,14 @@ const saveScoreBtn = document.getElementById("saveScoreBtn");
 const finalScore = document.getElementById("finalScore");
 const mostRecentScore = localStorage.getItem("mostRecentScore");
 
+var name = localStorage.getItem("name");
+
 const highScores = JSON.parse(localStorage.getItem("highScores")) || [];
 
 const MAX_HIGH_SCORES = 5;
 
-finalScore.innerText = "congrats! you got " + mostRecentScore + " Marks";
+finalScore.innerText =
+  "congrats! " + name + " you got " + mostRecentScore + " Marks";
 
 saveHighScore = (e) => {
   console.log("clicked the save button!");
