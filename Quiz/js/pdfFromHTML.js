@@ -1,4 +1,29 @@
 function HTMLtoPDF() {
+  var count = 0;
+  count = count + 1;
+  var name = localStorage.getItem("name");
+  var w = document.getElementById("HTMLtoPDF").offsetWidth;
+  var h = document.getElementById("HTMLtoPDF").offsetHeight;
+  html2canvas(document.getElementById("HTMLtoPDF"), {
+    // Adjusts your resolution
+    onrendered: function (canvas) {
+      var img = canvas.toDataURL("image/jpeg", 1);
+      var doc = new jsPDF("L", "px", [w, h]);
+      doc.addImage(img, "JPEG", 0, 0, w, h);
+
+      name = "Certificate of " + name + count + ".pdf";
+      doc.save(name);
+
+      setTimeout(function () {
+        alert("Downloaded Look into Your Downloads folder");
+      }, 1000);
+    },
+  });
+}
+
+function HTMLtoPDF1() {
+  var count = 0;
+  count = count + 1;
   var name = localStorage.getItem("name");
   var w = document.getElementById("HTMLtoPDF").offsetWidth;
   var h = document.getElementById("HTMLtoPDF").offsetHeight;
@@ -11,10 +36,6 @@ function HTMLtoPDF() {
 
       name = "Certificate of " + name + ".pdf";
       doc.save(name);
-
-      setTimeout(function () {
-        alert("Downloaded Look into Your Downloads folder");
-      }, 1000);
     },
   });
 }
@@ -70,9 +91,9 @@ function update() {
     document.getElementById("cert").disabled = false;
     document.getElementById("cert1").disabled = false;
   }
-  HTMLtoPDF();
+  HTMLtoPDF1();
 
   setTimeout(function () {
-    HTMLtoPDF();
+    HTMLtoPDF1();
   }, 500);
 }
