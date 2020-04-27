@@ -1,0 +1,85 @@
+[
+  {
+    "question": "What Should I Know About COVID-19 / मला कोविड -१९ विषयी कोणती माहिती असली पाहिजे?",
+    "choice1": "It is a disease called Coronavirus Disease-2019 caused by a Coronavirus named as SARS-CoV-2 / या आजाराला करोनावायरस डिसिस-२०१९ असे म्हणतात व तो सार्स - कोवि -२ या नावाचा करोनावायरसमुळे होतो.",
+    "choice2": "The symptoms of COVID-19 are Fever, Cough and Difficulty in breathing / खोकला, ताप व श्वासोच्छवास करताना त्रास होणे ही कोविड-१९ ची लक्षणेआहेत.",
+    "choice3": "If you have the symptoms of Fever, Cough or Difficulty in Breathing then Seek doctor's opinion immediately / जर तुम्हाला खोकला व ताप येत असेल तसेच श्वासोच्छवास करताना त्रास होत असेल तर त्वरित डॉक्टरांचे मत घ्या",
+    "choice4": "All the above / वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "Mild Symptoms of Novel coronavirus are?नॉवेल कोरोनाव्हायरसची सौम्य लक्षणे आहेत",
+    "choice1": "Fever / ताप",
+    "choice2": "Shortness of breath / श्वास लागणे",
+    "choice3": "Cough / खोकला",
+    "choice4": "All the above/ वरील सर्व",
+    "answer": 4
+  },
+
+  {
+    "question": "Use a mask if / केवळ खालील परिस्तितीत मास्क वापरा:",
+    "choice1": "You develop fever, cough or breathing difficulty / तुम्हाला खोकला किंवा ताप आला असेल किंवा श्वासोच्छवास करताना त्रास होत असेल तर",
+    "choice2": "You are visiting a health facility / तुम्ही आरोग्य संस्थेत गेलात त",
+    "choice3": "You are caring for an ill person and/or entering the room of an infected person / तुम्ही आजारी व्यक्तीची शुशूषा करत असाल व/वा संसर्ग झालेला व्यक्तीच्या-खोलीत प्रवेश करत असाल तर",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+
+  {
+    "question": "What percentage of alcohol in sanitizer is recommended? / आपण वापरात असलेल्या सँनिटीझर मध्ये अल्कोहोल चे प्रमाण किती असावे",
+    "choice1": "50%",
+    "choice2": "60%",
+    "choice3": "80%",
+    "choice4": "70%",
+    "answer": 4
+  },
+  {
+    "question": "If you must go out, how you will take care of yourself /आपण बाहेर जाणे आवश्यक असल्यास, आपण आपली काळजी कशी घ्याल",
+    "choice1": "Wear mask properly/मुखवटा व्यवस्थित घाला",
+    "choice2": "Do not touch any surface/ कोणत्याही पृष्ठभागाला स्पर्श करू नका",
+    "choice3": "Follow social distancing / सामाजिक अंतराचे अनुसरण करा",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "What you will do if in case if you have fever, cough and difficulty breathing/जर ताप, खोकला आणि श्वास घेण्यास त्रास होत असेल तर आपण काय कराल?",
+    "choice1": "Seek doctor's opinion immediately /त्वरित डॉक्टरांचे मत घ्या",
+    "choice2": "Take medicine which you know/ आपणास माहित असलेले औषध घ्या",
+    "choice3": "Do not wear mask/मुखवटा घालू नका",
+    "choice4": "stay home till symptoms increases/रोगाच्या लक्षणांमध्ये वाढ होईपर्यंत घरी रहा",
+    "answer": 1
+  },
+  {
+    "question": "Protection measures for persons who are in or have recently visited (past14 days) areas where COVID-19 is spreading /जेथे कोविड -१९ चा पसरतहोत आहे अश्या भागात असलेल्या आणि त्या परिसराला मागील १४ दिवसात भेट दिलेल्या लोकांसाठी संरक्षण उपाय",
+    "choice1": "Use mask while speaking to peoples/ लोकांशी बोलताना मुखवटा वापरा",
+    "choice2": "Self-isolate by staying at home/ घरी राहून स्वत: ला अलग ठेवा",
+    "choice3": "keep your all thing separat from your family members/आपल्या सर्व गोष्टी आपल्या कुटुंबातील सदस्यांपासून विभक्त ठेवा",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "Surgical mask has 3 layers, each layer serve different functions/सर्जिकल मास्कला3 थर असतात, प्रत्येक थर भिन्न कार्ये करतो",
+    "choice1": "Outer layer-fluid repelling/बाह्य थर- द्रव काढून टाकणे",
+    "choice2": "Middle layer-barrier to microorganism entry/मध्यम स्तर-सूक्ष्मजीव प्रवेशासाठी अडथळा",
+    "choice3": "Inner layer-moisture absorbing/ आतील थर-ओलावा शोषून घेणे",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+
+  {
+    "question": "How much minimum distance should be kept while following social distancing/ सामाजिक विचलनाचे अनुसरण करताना किमान अंतर किती ठेवले पाहिजे",
+    "choice1": "2 meter/ 2 मीटर",
+    "choice2": "1 meter/ 1 मीटर",
+    "choice3": "3 meter/ 3 मीटर",
+    "choice4": "4 meter/ 4 मीटर",
+    "answer": 2
+  },
+  {
+    "question": "What name was announced by the World Health Organisation on 11 February 2020 for the disease that is caused by the novel coronavirus? वर्ल्ड हेल्थ ऑर्गनायझेशनने 11 फेब्रुवारी, 2020 रोजी नॉवेल कोरोनाव्हायरसमुळे होणा-या आजाराचे नाव काय जाहीर केले?",
+    "choice1": "CONVId-19/ कॉन्व्हिड-१९",
+    "choice2": "COVN-20/ कोव्हन -२०",
+    "choice3": "COVID-19/ कोविड -१९",
+    "choice4": "COVN-19/ कोव्हन -१९",
+    "answer": 3
+  }
+]
