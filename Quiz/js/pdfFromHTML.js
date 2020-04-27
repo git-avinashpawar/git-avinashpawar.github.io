@@ -13,6 +13,7 @@ function HTMLtoPDF() {
 
       name = "Certificate of " + name + count + ".pdf";
       doc.save(name);
+      window.open(doc.output("bloburl"), "_blank");
 
       setTimeout(function () {
         alert("Downloaded Look into Your Downloads folder");
