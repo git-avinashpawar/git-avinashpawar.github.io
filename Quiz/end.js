@@ -36,7 +36,8 @@ function updateform() {
 
   $.ajax({
     url:
-      "https://docs.google.com/forms/d/e/1FAIpQLSf35ZQIoDmtD2yj1bv9hLBxKpzHvByLzGEK_oROJ_EGv2s-NQ/formResponse",
+      "https://docs.google.com/forms/d/e/1FAIpQLSfNEoyyJqAKS6cw4ZxbpHKkHjLQsIqzNP3y2QiLzSeXYJQwLw/formResponse",
+
     data: {
       "entry.366261369": name,
       "entry.636711749": org,
