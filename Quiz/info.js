@@ -6,7 +6,32 @@ const email = document.getElementById("email");
 const saveBtn = document.getElementById("saveBtn");
 
 name.addEventListener("keyup", () => {
-  saveBtn.disabled = !name.value;
+  if (name.value.length > 0 && org.value.length > 0) {
+    saveBtn.disabled = false;
+  } else {
+    saveBtn.disabled = true;
+  }
+});
+org.addEventListener("keyup", () => {
+  if (name.value.length > 0 && org.value.length > 0) {
+    saveBtn.disabled = false;
+  } else {
+    saveBtn.disabled = true;
+  }
+});
+cat.addEventListener("keyup", () => {
+  if (name.value.length > 0 && org.value.length > 0) {
+    saveBtn.disabled = false;
+  } else {
+    saveBtn.disabled = true;
+  }
+});
+email.addEventListener("keyup", () => {
+  if (name.value.length > 0 && org.value.length > 0) {
+    saveBtn.disabled = false;
+  } else {
+    saveBtn.disabled = true;
+  }
 });
 
 save = (e) => {
