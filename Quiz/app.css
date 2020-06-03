@@ -188,5 +188,5 @@ label {
 }
 html,
 body {
-  height: 100%; /* Needed for container's min-height  */
+  height: 100%;
 }
