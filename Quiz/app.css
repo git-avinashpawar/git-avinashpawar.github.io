@@ -53,8 +53,8 @@ h3 {
   padding: 2rem;
   margin: 0 auto;
   min-height: 100%;
-  margin-bottom: -40px; /* Put negative height of the footer here */
-  padding-bottom: 40px; /* Put height of the footer here. Needed for higher than screen height pages */
+  margin-bottom: -48px; /* Put negative height of the footer here */
+  padding-bottom: 48px; /* Put height of the footer here. Needed for higher than screen height pages */
 }
 
 .container > * {
