@@ -52,6 +52,7 @@ h3 {
   max-width: 80rem;
   padding: 2rem;
   margin: 0 auto;
+  min-height: 100%;
 }
 
 .container > * {
@@ -170,4 +171,16 @@ label {
     font-size: 1.5rem;
     font-weight: 500;
   }
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  font-size: medium;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }

@@ -1,0 +1,162 @@
+[
+  {
+    "question": "Where is 'National Institute of Virology' located in Maharastra? / कोविड-१९ निदान व्यवस्थेसाठी तयार असलेल्या प्रयोगशाळेपैकी 'राष्ट्रीय विषाणू विज्ञानसंस्था' हि महाराष्ट्रात या ठिकाणी आहे ??",
+    "choice1": "Mumbai / मुंबई",
+    "choice2": "Pune / पुणे",
+    "choice3": "Amrawati / अमरावती",
+    "choice4": "Nagpur / नागपूर",
+    "answer": 2
+  },
+  {
+    "question": "What Should I Know About COVID-19 / मला कोविड -१९ विषयी कोणती माहिती असली पाहिजे?",
+    "choice1": "It is a disease called Coronavirus Disease-2019 caused by a Coronavirus named as SARS-CoV-2 / या आजाराला करोनावायरस डिसिस-२०१९ असे म्हणतात व तो सार्स - कोवि -२ या नावाचा करोनावायरसमुळे होतो.",
+    "choice2": "The symptoms of COVID-19 are Fever, Cough and Difficulty in breathing / खोकला, ताप व श्वासोच्छवास करताना त्रास होणे ही कोविड-१९ ची लक्षणेआहेत.",
+    "choice3": "If you have the symptoms of Fever, Cough or Difficulty in Breathing then Seek doctor's opinion immediately / जर तुम्हाला खोकला व ताप येत असेल तसेच श्वासोच्छवास करताना त्रास होत असेल तर त्वरित डॉक्टरांचे मत घ्या",
+    "choice4": "All the above / वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "Covid-19 is spread by following virus / कोविड-१९ हा आजार या विषाणू मुळे होतो?",
+    "choice1": "SARK-COV-2",
+    "choice2": "SAR-COV-2",
+    "choice3": "SARS-COV-2",
+    "choice4": "SARC-COV-2",
+    "answer": 3
+  },
+  {
+    "question": "Mild Symptoms of Novel coronavirus are?नॉवेल कोरोनाव्हायरसची सौम्य लक्षणे आहेत",
+    "choice1": "Fever / ताप",
+    "choice2": "Shortness of breath / श्वास लागणे",
+    "choice3": "Cough / खोकला",
+    "choice4": "All the above/ वरील सर्व",
+    "answer": 4
+  },
+  {
+    "question": "What is a toll-free number for COVID-19 emergency or advise / कोविड-१९ विषयी शंका समाधानासाठी खालीलपैकी कोणते टोल -फ्री क्रमांक आहे?",
+    "choice1": "103",
+    "choice2": "109",
+    "choice3": "104",
+    "choice4": "105",
+    "answer": 3
+  },
+  {
+    "question": "Eating raw garlic, sesame seeds will protect you against the virus / कच्ची लसणू, तीळ खाल्यामुळे तुमचे विषाणूपासून रक्षण होते",
+    "choice1": "False / खोटे",
+    "choice2": "True / खरे",
+    "choice3": "All the above / वरील सर्व बरोबर आहेत",
+    "choice4": "None the above / वरीलपैकी एकही नाही ",
+    "answer": 1
+  },
+  {
+    "question": "Who Is A Suspect? / संसर्ग होणारी संभाव्य व्यक्ती कोण आहे",
+    "choice1": "All of the below / खालील सर्व बरोबर आहेत",
+    "choice2": "Anyone with acute respiratory illness (fever and at least one sign/symptom of respiratory disease ( cough, difficulty in breathing)) / श्वसनसंस्थेशी संबंधित तीव्र स्वरुपाचा आजार (ताप आणि शसनाचा आजाराची किमान एक खूण/ लक्षण (उदा. खोकला, श्वासोच्छवास करताना त्रास होणे) असलेली व्यक्ती",
+    "choice3": "Anyone with any acute respiratory illness AND having been in contact with a confirmed COVID-19 case in the last 14 days prior to onset of symptoms / शसनससंस्थेशी संबंधित तीव्र स्वरुपाचा कोणताही आजार असलेला आणि लक्षणे दिसून येण्याच्या १४ दिवस आधी कोविड-१९ ची खात्रीलायक बाधा झालेला व्यक्तीच्या संपर्कात आलेली व्यक्ती",
+    "choice4": "A case for whom testing for COVID-19 is inconclusive.Laboratory Confirmed case: A person with laboratory confirmation of COVID-19 infection, irrespective of clinical signs and symptoms / कोविड-१९ चा तपासणी चे निदान संधिग्न आहे अशा व्यक्ती . प्रयोगशाळे पुष्टी मिळालेली व्यक्ती : वैदकीय खुणा व लक्षणे दिसून आली नसली तरी प्रयोगशाळेद्वारे कोिवड-१९ चा संसर्ग झालाची पुष्टी मिळालेली व्यक्ती.",
+    "answer": 1
+  },
+  {
+    "question": "Things which you should not do? आपण करू नये अशा गोष्टी?",
+    "choice1": "wearing same mask multiple time mask multiple time/एकाच मुखवटा अनेक वेळा घालणे",
+    "choice2": "Taking antibiotics without doctor prescription/डॉक्टरांच्या सूचनाशिवाय अँटीबायोटिक्स घेणे",
+    "choice3": "Smoking/धूम्रपान",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "Use a mask if / केवळ खालील परिस्तितीत मास्क वापरा:",
+    "choice1": "You develop fever, cough or breathing difficulty / तुम्हाला खोकला किंवा ताप आला असेल किंवा श्वासोच्छवास करताना त्रास होत असेल तर",
+    "choice2": "You are visiting a health facility / तुम्ही आरोग्य संस्थेत गेलात त",
+    "choice3": "You are caring for an ill person and/or entering the room of an infected person / तुम्ही आजारी व्यक्तीची शुशूषा करत असाल व/वा संसर्ग झालेला व्यक्तीच्या-खोलीत प्रवेश करत असाल तर",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "To detect COVID-19 what testing method is used? / कोविड-१९ ओळखण्यासाठी कोणती चाचणी वापरतात?",
+    "choice1": "Ft-test",
+    "choice2": "Rt-PCR",
+    "choice3": "Bc-test",
+    "choice4": "वरीलपैकी एकही नाही /None of the above",
+    "answer": 2
+  },
+  {
+    "question": "What percentage of alcohol in sanitizer is recommended? / आपण वापरात असलेल्या सँनिटीझर मध्ये अल्कोहोल चे प्रमाण किती असावे",
+    "choice1": "50%",
+    "choice2": "60%",
+    "choice3": "80%",
+    "choice4": "70%",
+    "answer": 4
+  },
+  {
+    "question": "If you must go out, how you will take care of yourself /आपण बाहेर जाणे आवश्यक असल्यास, आपण आपली काळजी कशी घ्याल",
+    "choice1": "Wear mask properly/मुखवटा व्यवस्थित घाला",
+    "choice2": "Do not touch any surface/ कोणत्याही पृष्ठभागाला स्पर्श करू नका",
+    "choice3": "Follow social distancing / सामाजिक अंतराचे अनुसरण करा",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "What you will do if in case if you have fever, cough and difficulty breathing/जर ताप, खोकला आणि श्वास घेण्यास त्रास होत असेल तर आपण काय कराल?",
+    "choice1": "Seek doctor's opinion immediately /त्वरित डॉक्टरांचे मत घ्या",
+    "choice2": "Take medicine which you know/ आपणास माहित असलेले औषध घ्या",
+    "choice3": "Do not wear mask/मुखवटा घालू नका",
+    "choice4": "stay home till symptoms increases/रोगाच्या लक्षणांमध्ये वाढ होईपर्यंत घरी रहा",
+    "answer": 1
+  },
+  {
+    "question": "Protection measures for persons who are in or have recently visited (past14 days) areas where COVID-19 is spreading /जेथे कोविड -१९ चा पसरतहोत आहे अश्या भागात असलेल्या आणि त्या परिसराला मागील १४ दिवसात भेट दिलेल्या लोकांसाठी संरक्षण उपाय",
+    "choice1": "Use mask while speaking to peoples/ लोकांशी बोलताना मुखवटा वापरा",
+    "choice2": "Self-isolate by staying at home/ घरी राहून स्वत: ला अलग ठेवा",
+    "choice3": "keep your all thing separat from your family members/आपल्या सर्व गोष्टी आपल्या कुटुंबातील सदस्यांपासून विभक्त ठेवा",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "Surgical mask has 3 layers, each layer serve different functions/सर्जिकल मास्कला3 थर असतात, प्रत्येक थर भिन्न कार्ये करतो",
+    "choice1": "Outer layer-fluid repelling/बाह्य थर- द्रव काढून टाकणे",
+    "choice2": "Middle layer-barrier to microorganism entry/मध्यम स्तर-सूक्ष्मजीव प्रवेशासाठी अडथळा",
+    "choice3": "Inner layer-moisture absorbing/ आतील थर-ओलावा शोषून घेणे",
+    "choice4": "All the above/वरील सर्व बरोबर आहेत",
+    "answer": 4
+  },
+  {
+    "question": "With the summer coming up, the Coronavirus will be killed / उन्हाळा सुरु होत आल्यामुळे करोनावायरस नष्ट होईल *",
+    "choice1": "True / खरे",
+    "choice2": "False / खोटे",
+    "choice3": "All the above / वरील सर्व बरोबर आहेत",
+    "choice4": "None the above / वरीलपैकी एकही नाही ",
+    "answer": 2
+  },
+  {
+    "question": "How much minimum distance should be kept while following social distancing/ सामाजिक विचलनाचे अनुसरण करताना किमान अंतर किती ठेवले पाहिजे",
+    "choice1": "2 meter/ 2 मीटर",
+    "choice2": "1 meter/ 1 मीटर",
+    "choice3": "3 meter/ 3 मीटर",
+    "choice4": "4 meter/ 4 मीटर",
+    "answer": 2
+  },
+  {
+    "question": "What is quarantine / quarantine काय आहे",
+    "choice1": "Separates sick people with a contagious disease from people who are not sick.सांसर्गिक आजाराने ग्रासलेल्या लोकांना आजार नसलेल्या लोकांपासून विभक्त ठेवणे",
+    "choice2": "Separates and restricts the movement of people who were exposed to a contagious disease to see if they become sick. These people may have been exposed to a disease and do not know it, or they may have the disease but do not show symptoms.सांसर्गिक आजार असणार्यांच्या संपर्कात आलेल्या व्यक्तीं आजारी आहेत की नाही हे पाहण्यासाठी त्यांना विभक्त ठेवणे आणि त्यांची हालचाल प्रतिबंधित करणे. या लोकांना कदाचित आजाराची लागण झाली असेल आणि त्यांना ते माहित नसेल किंवा त्यांना हा आजार असेल परंतु लक्षणे दिसत नासेल",
+    "choice3": "All the above/वरील सर्व बरोबर आहेत",
+    "choice4": "None of the above/ वरीलपैकी काहीही नाही",
+    "answer": 3
+  },
+  {
+    "question": "What name was announced by the World Health Organisation on 11 February 2020 for the disease that is caused by the novel coronavirus? वर्ल्ड हेल्थ ऑर्गनायझेशनने 11 फेब्रुवारी, 2020 रोजी नॉवेल कोरोनाव्हायरसमुळे होणा-या आजाराचे नाव काय जाहीर केले?",
+    "choice1": "CONVId-19/ कॉन्व्हिड-१९",
+    "choice2": "COVN-20/ कोव्हन -२०",
+    "choice3": "COVID-19/ कोविड -१९",
+    "choice4": "COVN-19/ कोव्हन -१९",
+    "answer": 3
+  },
+  {
+    "question": "The first case of novel coronavirus was identified in कोरोना विषाणूची पहिली घटना कोठे ओळखली गेली *",
+    "choice1": "Shanghai/ शांघाय",
+    "choice2": "Beijing/ बीजिंग",
+    "choice3": "Tianjin/ टियांजिन",
+    "choice4": "Wuhan, Hubei/ वुहान, हुबे",
+    "answer": 4
+  }
+]

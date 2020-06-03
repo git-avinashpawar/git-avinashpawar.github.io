@@ -1,374 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>ProjectX</title>
 
-    <!-- Meta -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="ProjectX Website" />
-    <meta name="author" content="ProjectX" />
-    <link rel="shortcut icon" href="favicon.ico" />
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <!-- FontAwesome JS-->
-    <script
-      defer
-      src="https://use.fontawesome.com/releases/v5.7.1/js/all.js"
-      integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7"
-      crossorigin="anonymous"
-    ></script>
+  <title>Avinash Pawar</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-    <!-- Theme CSS -->
-    <link id="theme-style" rel="stylesheet" href="assets/css/theme-1.css" />
-  </head>
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i"
+    rel="stylesheet">
 
-  <body>
-    <header class="header text-center">
-      <h1 class="blog-name pt-lg-4 mb-0"><a href="index.html">ProjectX</a></h1>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navigation"
-          aria-controls="navigation"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
 
-        <div id="navigation" class="collapse navbar-collapse flex-column">
-          <div class="profile-section pt-3 pt-lg-0">
-            <img
-              class="profile-image mb-3 rounded-circle mx-auto"
-              src="assets/images/profile.png"
-              alt="image"
-            />
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 
-            <div class="bio mb-3">
-              Hi, my name is Avinash Pawar aka ProjectX. Briefly introduce
-              yourself here. You can also provide a link to the about page.<br /><a
-                href="about.html"
-                >Find out more about me</a
-              >
-            </div>
-            <!--//bio-->
-            <ul class="social-list list-inline py-3 mx-auto">
-              <li class="list-inline-item">
-                <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fab fa-github-alt fa-fw"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fab fa-codepen fa-fw"></i></a>
-              </li>
-            </ul>
-            <!--//social-list-->
-            <hr />
-          </div>
-          <!--//profile-section-->
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
 
-          <ul class="navbar-nav flex-column text-left">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"
-                ><i class="fas fa-home fa-fw mr-2"></i>Blog Home
-                <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog-post.html"
-                ><i class="fas fa-bookmark fa-fw mr-2"></i>Blog Post</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html"
-                ><i class="fas fa-user fa-fw mr-2"></i>About Me</a
-              >
-            </li>
-          </ul>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
 
-          <div class="my-2 my-md-3">
-            <a
-              class="btn btn-primary"
-              href="http://projectx-v0.github.io"
-              target="_blank"
-              >Get in Touch</a
-            >
-          </div>
+
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" alt="logo"></a>
         </div>
-      </nav>
-    </header>
 
-    <div class="main-wrapper">
-      <section class="blog-list px-3 py-5 p-md-5">
-        <div class="container">
-          <div class="item mb-5">
-            <div class="media">
-              <img
-                class="mr-3 img-fluid post-thumb d-none d-md-flex"
-                src="assets/images/blog/blog-post-thumb-1.jpg"
-                alt="image"
-              />
-              <div class="media-body">
-                <h3 class="title mb-1">
-                  <a href="blog-post.html"
-                    >Why Every Developer Should Have A Blog</a
-                  >
-                </h3>
-                <div class="meta mb-1">
-                  <span class="date">Published 2 days ago</span
-                  ><span class="time">5 min read</span
-                  ><span class="comment"><a href="#">8 comments</a></span>
-                </div>
-                <div class="intro">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies...
-                </div>
-                <a class="more-link" href="blog-post.html">Read more &rarr;</a>
-              </div>
-              <!--//media-body-->
-            </div>
-            <!--//media-->
-          </div>
-          <!--//item-->
-          <div class="item mb-5">
-            <div class="media">
-              <img
-                class="mr-3 img-fluid post-thumb d-none d-md-flex"
-                src="assets/images/blog/blog-post-thumb-2.jpg"
-                alt="image"
-              />
-              <div class="media-body">
-                <h3 class="title mb-1">
-                  <a href="blog-post.html"
-                    >A Guide to Becoming a Full-Stack Developer</a
-                  >
-                </h3>
-                <div class="meta mb-1">
-                  <span class="date">Published 3 months ago</span
-                  ><span class="time">3 min read</span
-                  ><span class="comment"><a href="#">26 comments</a></span>
-                </div>
-                <div class="intro">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies...
-                </div>
-                <a class="more-link" href="blog-post.html">Read more &rarr;</a>
-              </div>
-              <!--//media-body-->
-            </div>
-            <!--//media-->
-          </div>
-          <!--//item-->
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
 
-          <div class="item mb-5">
-            <div class="media">
-              <img
-                class="mr-3 img-fluid post-thumb d-none d-md-flex"
-                src="assets/images/blog/blog-post-thumb-3.jpg"
-                alt="image"
-              />
-              <div class="media-body">
-                <h3 class="title mb-1">
-                  <a href="blog-post.html">High Performance JavaScript</a>
-                </h3>
-                <div class="meta mb-1">
-                  <span class="date">Published 1 month ago</span
-                  ><span class="time">8 min read</span
-                  ><span class="comment"><a href="#">12 comments</a></span>
-                </div>
-                <div class="intro">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies...
-                </div>
-                <a class="more-link" href="blog-post.html">Read more &rarr;</a>
-              </div>
-              <!--//media-body-->
-            </div>
-            <!--//media-->
-          </div>
-          <!--//item-->
-          <div class="item mb-5">
-            <div class="media">
-              <img
-                class="mr-3 img-fluid post-thumb d-none d-md-flex"
-                src="assets/images/blog/blog-post-thumb-4.jpg"
-                alt="image"
-              />
-              <div class="media-body">
-                <h3 class="title mb-1">
-                  <a href="blog-post.html">Top 5 JavaScript Frameworks</a>
-                </h3>
-                <div class="meta mb-1">
-                  <span class="date">Published 2 months ago</span
-                  ><span class="time">15 min read</span
-                  ><span class="comment"><a href="#">3 comments</a></span>
-                </div>
-                <div class="intro">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies...
-                </div>
-                <a class="more-link" href="blog-post.html">Read more &rarr;</a>
-              </div>
-              <!--//media-body-->
-            </div>
-            <!--//media-->
-          </div>
-          <!--//item-->
-
-          <div class="item mb-5">
-            <div class="media">
-              <img
-                class="mr-3 img-fluid post-thumb d-none d-md-flex"
-                src="assets/images/blog/blog-post-thumb-5.jpg"
-                alt="image"
-              />
-              <div class="media-body">
-                <h3 class="title mb-1">
-                  <a href="blog-post.html">Learn React in 24 Hours</a>
-                </h3>
-                <div class="meta mb-1">
-                  <span class="date">Published 2 months ago</span
-                  ><span class="time">10 min read</span
-                  ><span class="comment"><a href="#">23 comments</a></span>
-                </div>
-                <div class="intro">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies...
-                </div>
-                <a class="more-link" href="blog-post.html">Read more &rarr;</a>
-              </div>
-              <!--//media-body-->
-            </div>
-            <!--//media-->
-          </div>
-          <!--//item-->
-
-          <div class="item">
-            <div class="media">
-              <img
-                class="mr-3 img-fluid post-thumb d-none d-md-flex"
-                src="assets/images/blog/blog-post-thumb-6.jpg"
-                alt="image"
-              />
-              <div class="media-body">
-                <h3 class="title mb-1">
-                  <a href="blog-post.html">About Remote Working</a>
-                </h3>
-                <div class="meta mb-1">
-                  <span class="date">Published 3 months ago</span
-                  ><span class="time">2 min read</span
-                  ><span class="comment"><a href="#">1 comment</a></span>
-                </div>
-                <div class="intro">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                  Aenean commodo ligula eget dolor. Aenean massa. Cum sociis
-                  natoque penatibus et magnis dis parturient montes, nascetur
-                  ridiculus mus. Donec quam felis, ultricies...
-                </div>
-                <a class="more-link" href="blog-post.html">Read more &rarr;</a>
-              </div>
-              <!--//media-body-->
-            </div>
-            <!--//media-->
-          </div>
-          <!--//item-->
-
-          <nav class="blog-nav nav nav-justified my-5">
-            <a
-              class="nav-link-prev nav-item nav-link d-none rounded-left"
-              href="#"
-              >Previous<i class="arrow-prev fas fa-long-arrow-alt-left"></i
-            ></a>
-            <a
-              class="nav-link-next nav-item nav-link rounded"
-              href="blog-list.html"
-              >Next<i class="arrow-next fas fa-long-arrow-alt-right"></i
-            ></a>
-          </nav>
-        </div>
-      </section>
-
-      <footer class="footer text-center py-2 theme-bg-dark">
-        <small class="copyright"
-          >Designed with <i class="fas fa-heart" style="color: #fb866a;"></i> by
-          <a href="http://projectx-v0.github.io" target="_blank">ProjectX</a>
-          for CodeSpace</small
-        >
-      </footer>
-    </div>
-    <!--//main-wrapper-->
-
-    <!-- *****CONFIGURE STYLE ****** -->
-    <div id="config-panel" class="config-panel d-none d-lg-block">
-      <div class="panel-inner">
-        <a
-          id="config-trigger"
-          class="config-trigger config-panel-hide text-center"
-          href="#"
-          ><i class="fas fa-cog fa-spin mx-auto" data-fa-transform="down-6"></i
-        ></a>
-        <h5 class="panel-title">Choose Colour</h5>
-        <ul id="color-options" class="list-inline mb-0">
-          <li class="theme-1 active list-inline-item">
-            <a data-style="assets/css/theme-1.css" href="#"></a>
-          </li>
-          <li class="theme-2  list-inline-item">
-            <a data-style="assets/css/theme-2.css" href="#"></a>
-          </li>
-          <li class="theme-3  list-inline-item">
-            <a data-style="assets/css/theme-3.css" href="#"></a>
-          </li>
-          <li class="theme-4  list-inline-item">
-            <a data-style="assets/css/theme-4.css" href="#"></a>
-          </li>
-          <li class="theme-5  list-inline-item">
-            <a data-style="assets/css/theme-5.css" href="#"></a>
-          </li>
-          <li class="theme-6  list-inline-item">
-            <a data-style="assets/css/theme-6.css" href="#"></a>
-          </li>
-          <li class="theme-7  list-inline-item">
-            <a data-style="assets/css/theme-7.css" href="#"></a>
-          </li>
-          <li class="theme-8  list-inline-item">
-            <a data-style="assets/css/theme-8.css" href="#"></a>
-          </li>
+        <ul class="nav-menu list-unstyled">
+          <li class="smoothScroll">&nbsp;</li>
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#portfolio" class="smoothScroll">Gallery</a></li>
+          <li><a href="#blog" class="smoothScroll">Projects</a></li>
+          <li><a href="resume.pdf" target="_blank" class="smoothScroll">Resume</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
         </ul>
-        <a id="config-close" class="close" href="#"
-          ><i class="fa fa-times-circle"></i
-        ></a>
+
       </div>
-      <!--//panel-inner-->
     </div>
-    <!--//configure-panel-->
+  </nav>
+  <!-- End section navbar -->
 
-    <!-- Javascript -->
-    <script src="assets/plugins/jquery-3.3.1.min.js"></script>
-    <script src="assets/plugins/popper.min.js"></script>
-    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Style Switcher  -->
-    <script src="assets/js/demo/style-switcher.js"></script>
-  </body>
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1>I'm <span class="typed"></span></h1>
+        <p>designer, full stack developer, photographer</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p class="p-heading">Avinash Pawar.</p>
+
+            <p class="p-heading">im a Full Stack developer and Creative individual based in Maharashtra, India who loves
+              challenging tasks and nature. I also enjoy
+              Photography, Painting, & Ilustration work. </p>
+
+            <p class="separator">Photographer by Heart, Programmer by Mind.</p>
+            <p>
+              I’m a web developer and graphic designer living in Kolhapur, India . I spend my days with my hands in many
+              different areas of web development from back end programming (PHP, JAVA) to front end engineering (HTML,
+              CSS, and jQuery/Javascript), digital accessibility, user experience and visual design.</p>
+            <p>
+              I’m extremely passionate about web development and design in all it’s forms and helping small businesses
+              and artisans build and improve their online presence. Aside from web development, I enjoy spending my time
+              with my Friends and Other wildlife Activists. <br> (Usually Trekking Somewhere remote in Jungle :P)</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+
+      <div class="services-carousel owl-theme">
+
+        <div class="services-block">
+
+          <i class="ion-monitor"></i>
+          <span>WEB DESIGN</span>
+          <p class="separator">Blending My experience with technology and style, my website design services are aimed to
+            boost your businesses. </p>
+
+        </div>
+
+        <div class="services-block">
+
+          <i class="ion-code-working"></i>
+          <span>WEB DEVELOPMENT</span>
+          <p class="separator">Your Concept Our Designs. Our designs go beyond the graphics and visual presentation to
+            provide customer satisfaction.</p>
+
+        </div>
+
+        <div class="services-block">
+
+          <i class="ion-camera"></i>
+          <span>PHOTOGRAPHY</span>
+          <p class="separator">Our in-house photography services team of professional photographers can add value to
+            your website with high-resolution photos, event photography and product photography.</p>
+
+        </div>
+
+        <div class="services-block">
+
+          <i class="ion-android-phone-portrait"></i>
+          <span>RESPONSIVE DESIGN</span>
+          <p class="separator">Responsive Web Design Services that Improve Viewing Experience. Impress your visitors
+            with responsive web design. Better graphics, more accessibility and a mobile-first approach.</p>
+
+        </div>
+
+        <div class="services-block">
+
+          <i class="ion-paintbrush"></i>
+          <span>GRAPHIC DESIGN</span>
+          <p class="separator">TWe offer a range of graphic design services and mold your imagination into effective
+            designs through creative and focused efforts. We work with our clients to bring their concepts to life.</p>
+
+        </div>
+
+        <div class="services-block">
+
+          <i class="ion-stats-bars"></i>
+          <span>MARKETING SERVICE</span>
+          <p class="separator">We can create content customised as per your specs - from blogs, news, press releases,
+            small email pieces, e-newsletters, catalogues, brochures, sales letters or online ads etc, we do everything.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="portfolio" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2><a href="/gallery.html">My Gallery</a></h2>
+        <h6 style="margin-top: 10px;"><a href="/gallery.html">Click here for full Gallery</a></h6>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+            <ul class="nav list-unstyled" id="portfolio-flters">
+              <li class="filter filter-active" data-filter=".all">all</li>
+              <li class="filter" data-filter=".wildlife">Wildlife</li>
+              <li class="filter" data-filter=".landscape">landscape</li>
+            </ul>
+
+          </div>
+
+          <div class="portfolio-container">
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all wildlife landscape">
+              <a class="popup-img" href="images/portfolio/1.jpg">
+                <img src="images/portfolio/1.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all wildlife landscape">
+              <a class="popup-img" href="images/portfolio/2.jpg">
+                <img src="images/portfolio/2.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all wildlife landscape">
+              <a class="popup-img" href="images/portfolio/3.jpg">
+                <img src="images/portfolio/3.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all wildlife ">
+              <a class="popup-img" href="images/portfolio/4.jpg">
+                <img src="images/portfolio/4.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all landscape">
+              <a class="popup-img" href="images/portfolio/5.jpg">
+                <img src="images/portfolio/5.jpg" alt="img">
+              </a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+              <a class="popup-img" href="images/portfolio/6.jpg">
+                <img src="images/portfolio/6.jpg" alt="img">
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+  <div id="blog" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2><a href="/blog.html">MY BLOG</a></h2>
+        <h6 style="margin-top: 10px;"><a href="/blog.html">Click here for full blog</a></h6>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="blog-list">
+
+              <ul class="nav list-unstyled" id="blog-flters">
+                <li class="filter filter-active" data-filter=".all">all</li>
+                <li class="filter" data-filter=".2019">2019</li>
+                <li class="filter" data-filter=".2018">2018</li>
+              </ul>
+
+            </div>
+
+            <div class="blog-container">
+
+              <div class="journal-info">
+                <div class="col-lg-4 col-md-6 blog-thumbnail all 2018">
+                  <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+                  <div class="journal-txt">
+
+                    <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                    <p class="separator">To an English person, it will seem like simplified English
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="journal-info">
+                <div class="col-lg-4 col-md-6 blog-thumbnail all 2019">
+                  <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+                  <div class="journal-txt">
+
+                    <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                    <p class="separator">To an English person, it will seem like simplified English
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="journal-info">
+                <div class="col-lg-4 col-md-6 blog-thumbnail all 2018">
+                  <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+                  <div class="journal-txt">
+
+                    <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                    <p class="separator">To an English person, it will seem like simplified English
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+              <div class="journal-info">
+                <div class="col-lg-4 col-md-6 blog-thumbnail all 2019">
+                  <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+                  <div class="journal-txt">
+
+                    <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                    <p class="separator">To an English person, it will seem like simplified English
+                    </p>
+
+                  </div>
+                </div>
+              </div>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- End section journal -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <p>
+                  I'am always ready to Help. Drop me a Message Here. (I Usually replies in 24 hrs.)</p>
+                <li><i class="ion-android-compass"></i> Currenty Kolhapur, Maharashtrta , India.</li>
+                <li><i class="ion-email"></i> Cloudmail.project.x@gmail.com</li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="https://formsubmit.co/cloudmail.project.x@gmail.com" method="post" role="form"
+              class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                      data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                      data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                      data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="message" rows="12" data-rule="required"
+                      data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="hidden" name="_autoresponse" value="Thank You For Message. ProjectX Will Reply Soon.">
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights ProjectX. All rights reserved.</p>
+
+      <div class="credits">
+
+        Made with ❤️ By <a href="https://avinashpawar.ml/">ProjectX</a>
+      </div>
+
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
