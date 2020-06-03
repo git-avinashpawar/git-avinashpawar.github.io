@@ -3,7 +3,7 @@ var isChrome =
 
 if (isChrome == false) {
   alert(
-    " You are not using Chrome browser. Please use Chrome browser to download Certificate"
+    " You are not using Chrome browser. Please use Chrome browser for better experience"
   );
 }
 console.log(isChrome);
