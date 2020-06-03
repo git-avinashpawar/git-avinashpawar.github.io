@@ -52,6 +52,9 @@ h3 {
   max-width: 80rem;
   padding: 2rem;
   margin: 0 auto;
+  min-height: 100%;
+  margin-bottom: -40px; /* Put negative height of the footer here */
+  padding-bottom: 40px; /* Put height of the footer here. Needed for higher than screen height pages */
 }
 
 .container > * {
@@ -172,7 +175,7 @@ label {
   }
 }
 .footer {
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -182,4 +185,8 @@ label {
   font-size: medium;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+html,
+body {
+  height: 100%; /* Needed for container's min-height  */
 }
