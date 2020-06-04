@@ -31,18 +31,18 @@ function updateform() {
   var name = localStorage.getItem("name");
   var org = localStorage.getItem("org");
   var cat = localStorage.getItem("cat");
-  var email = localStorage.getItem("email");
+  //var email = localStorage.getItem("email");
   const score = localStorage.getItem("mostRecentScore");
 
   $.ajax({
     url:
-      "https://docs.google.com/forms/d/e/1FAIpQLSfNEoyyJqAKS6cw4ZxbpHKkHjLQsIqzNP3y2QiLzSeXYJQwLw/formResponse",
+      "https://docs.google.com/forms/d/e/1FAIpQLSdpdNGWQWzz4f15qkuB53EguEdRO_ZPL2U8VCfUs9XZDy-BVA/formResponse",
 
     data: {
       "entry.366261369": name,
       "entry.636711749": org,
       "entry.358051269": cat,
-      "entry.325043293": email,
+      //"entry.325043293": email,
       "entry.1355833391": score,
     },
     type: "GET",
