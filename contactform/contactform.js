@@ -132,8 +132,8 @@ jQuery(document).ready(function ($) {
       },
       dataType: "xml",
       error: function (textStatus, errorThrown) {
-        console.log(textStatus);
-        console.log(errorThrown);
+        //console.log(textStatus);
+        //console.log(errorThrown);
 
        
         if (errorThrown == "error") {
