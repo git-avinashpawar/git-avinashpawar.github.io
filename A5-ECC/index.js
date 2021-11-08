@@ -86,6 +86,6 @@ $(function () {
       e.preventDefault();
     });
     console.log($(document.activeElement).val());
-    window.open("/ad-search.html", "_blank");
+    window.open("/A5-ECC/ad-search.html", "_blank");
   });
 });
