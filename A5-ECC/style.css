@@ -1,0 +1,56 @@
+/* BASIC STYLES */
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 10%;
+}
+
+header {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.form {
+  text-align: center;
+}
+
+#form-search {
+  width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;
+}
+#form-links {
+  width: 450px;
+  line-height: 32px;
+  padding: 20px 10px;
+}
+
+.form #form-search {
+  padding: 0 8px;
+}
+.form #form-links {
+  padding: 0 8px;
+}
+
+.buttons {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 300px;
+}
+a {
+  color: green;
+  text-decoration: none;
+  border-bottom: 1px solid red;
+}

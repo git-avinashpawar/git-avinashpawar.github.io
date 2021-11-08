@@ -135,12 +135,11 @@ jQuery(document).ready(function ($) {
         //console.log(textStatus);
         //console.log(errorThrown);
 
-       
         if (errorThrown == "error") {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $(".contactForm").find("input, textarea").val("");
-           //alert("Your Response Recorded");
+          //alert("Your Response Recorded");
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");

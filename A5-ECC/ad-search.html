@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+  </head>
+
+  <body>
+    <!-- FORM SEARCH -->
+    <div class="form">
+      <form>
+        <h1>Document Search</h1>
+        <label for="form-search"></label>
+        <input type="text" id="form-search" placeholder="type Keyword" />
+        <div style="padding-top: 1rem">
+          <input
+            type="text"
+            id="form-links"
+            placeholder="type book links separated by comma"
+          />
+        </div>
+        <!-- BUTTONS -->
+        <div class="buttons">
+          <input type="submit" value="Search" id="search" />
+
+          <h3>
+            Instructions to use:
+            <p>1. Enter SearchKey in input field keyword.</p>
+            <p>
+              2. Enter your working links for books for Search. Please do not
+              enter too many.(less than 10)
+            </p>
+            <p>
+              You can find working links here
+              <a href="/links.txt" target="_blank">Books Data </a><br />
+              a great example is :
+              <br />https://www.gutenberg.org/files/147/147-0.txt,<br />
+              https://www.gutenberg.org/files/149/149-0.txt,<br />
+              https://www.gutenberg.org/files/153/153-0.txt,<br />
+              https://www.gutenberg.org/files/155/155-0.txt<br />
+              (Please ensure it is separated by commas)
+            </p>
+          </h3>
+          <h3 id="res"></h3>
+          <h3 id="init"></h3>
+          <h3 id="result"></h3>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="/ad-search.js"></script>
+  <script src="/lib/jquery/jquery.min.js"></script>
+</html>
