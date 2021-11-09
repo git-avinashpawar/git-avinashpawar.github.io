@@ -44,20 +44,23 @@ $(function () {
         if (myItems[a] != undefined) {
           var b = myItems[a];
           b.sort(function (a, b) {
-            return b[1] - a[1];
+            return a[0] - b[0];
           });
 
-          var l = Object.keys(b).length;
           var c = [];
 
+          var l = Object.keys(b).length;
           for (let j = 0; j < l - 1; j++) {
-            if (b[j] != b[j + 1]) {
-              c.push([b[j][0], b[j][1]]);
+            if (b[j][0] != b[j + 1][0]) {
+              c.push(b[j]);
             }
           }
-          c.push([b[l - 1][0], b[l - 1][1]]);
+          c.push(b[l - 1]);
 
           b = c;
+          b.sort(function (a, b) {
+            return b[1] - a[1];
+          });
           console.log(c, b, b[1][0]);
           l = Object.keys(b).length;
           for (let i = 0; i < l; i++) {
