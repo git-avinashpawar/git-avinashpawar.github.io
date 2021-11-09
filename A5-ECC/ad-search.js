@@ -81,7 +81,7 @@ $(function () {
               return b[1] - a[1];
             });
             var c = [];
-
+            var l = Object.keys(b).length;
             for (let j = 0; j < l - 1; j++) {
               if (b[j] != b[j + 1]) {
                 c.push([b[j][0], b[j][1]]);
@@ -90,7 +90,7 @@ $(function () {
             c.push([b[l - 1][0], b[l - 1][1]]);
 
             b = c;
-            var l = Object.keys(b).length;
+            console.log(c, b);
             for (let i = 0; i < l; i++) {
               for (let j = 0; j < av.files.length; j++) {
                 if (av.files[j].fname == b[i][0]) {
