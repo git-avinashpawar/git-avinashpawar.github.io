@@ -96,6 +96,7 @@ $(function () {
               return b[1] - a[1];
             });
             console.log(c, b);
+            l = Object.keys(b).length;
             for (let i = 0; i < l; i++) {
               for (let j = 0; j < av.files.length; j++) {
                 if (av.files[j].fname == b[i][0]) {
