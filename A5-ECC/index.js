@@ -46,7 +46,20 @@ $(function () {
           b.sort(function (a, b) {
             return b[1] - a[1];
           });
+
           var l = Object.keys(b).length;
+          var c = [];
+
+          for (let j = 0; j < l - 1; j++) {
+            if (b[j] != b[j + 1]) {
+              c.push([b[j][0], b[j][1]]);
+            }
+          }
+          c.push([b[l - 1][0], b[l - 1][1]]);
+
+          b = c;
+          console.log(c, b, b[1][0]);
+          l = Object.keys(b).length;
           for (let i = 0; i < l; i++) {
             for (let j = 0; j < av.shr.length; j++) {
               if (av.shr[j].fname == b[i][0]) {
