@@ -6621,7 +6621,7 @@
                 " " +
                 f2(pageHeight - (anno.bounds.y + anno.bounds.h) * k) +
                 "] ";
-              var color = anno.color || "#000000";
+              var color = anno.color || "#011628";
               line =
                 "<</Type /Annot /Subtype /" +
                 "FreeText" +
@@ -7873,7 +7873,7 @@
                 if (rgbColor.ok) {
                   style = rgbColor.toHex();
                 } else {
-                  style = "#000000";
+                  style = "#011628";
                 }
               }
 
@@ -9378,8 +9378,8 @@
     function context() {
       this._isStrokeTransparent = false;
       this._strokeOpacity = 1;
-      this.strokeStyle = "#000000";
-      this.fillStyle = "#000000";
+      this.strokeStyle = "#011628";
+      this.fillStyle = "#011628";
       this._isFillTransparent = false;
       this._fillOpacity = 1;
       this.font = "12pt times";
@@ -10453,7 +10453,7 @@
           if (rgbColor.ok) {
             style = rgbColor.toHex();
           } else {
-            style = "#000000";
+            style = "#011628";
           }
         }
         r = style.substring(1, 3);

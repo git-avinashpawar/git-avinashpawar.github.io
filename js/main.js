@@ -84,9 +84,12 @@ $(document).ready(function () {
     typed.typed({
       strings: [
         "Avinash Pawar.",
+        "Data Wizard.",
+        "Cloud Engineer.",
+        "AI/ML developer.",
         "Full Stack Developer.",
-        "Freelancer.",
         "Photographer.",
+        
       ],
       typeSpeed: 100,
       loop: true,
@@ -147,6 +150,7 @@ $(document).ready(function () {
 //  Porfolio isotope and filter
 // ========================================================================= //
 $(window).load(function () {
+ 
   var portfolioIsotope = $(".portfolio-container").isotope({
     itemSelector: ".portfolio-thumbnail",
     layoutMode: "fitRows",
@@ -168,9 +172,10 @@ $(window).load(function () {
   });
 
   $("#blog-flters li").on("click", function () {
-    $("#bog-flters li").removeClass("filter-active");
+    $("#blog-flters li").removeClass("filter-active");
     $(this).addClass("filter-active");
 
     blogIsotope.isotope({ filter: $(this).data("filter") });
   });
 });
+

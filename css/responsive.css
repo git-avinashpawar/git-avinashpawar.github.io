@@ -68,6 +68,13 @@
     margin: 20px;
     display: inline-block;
   }
+ /* blog */
+ #blog .blog-list .nav li {
+  float: none;
+  margin: 20px;
+  display: inline-block;
+}
+
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
@@ -139,6 +146,12 @@
     margin: 20px;
     display: inline-block;
   }
+   /* blog */
+ #blog .blog-list .nav li {
+  float: none;
+  margin: 20px;
+  display: inline-block;
+}
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
@@ -210,6 +223,12 @@
     margin: 10px;
     display: inline-block;
   }
+   /* blog */
+ #blog .blog-list .nav li {
+  float: none;
+  margin: 10px;
+  display: inline-block;
+}
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
@@ -280,6 +299,11 @@
     float: none;
     margin: 20px;
   }
+   /* blog */
+ #blog .blog-list .nav li {
+  float: none;
+  margin: 20px;
+}
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;
@@ -350,6 +374,11 @@
     float: none;
     margin: 20px;
   }
+   /* blog */
+ #blog .blog-list .nav li {
+  float: none;
+  margin: 20px;
+}
   /* journal */
   #journal .journal-block .journal-info {
     margin-bottom: 30px;

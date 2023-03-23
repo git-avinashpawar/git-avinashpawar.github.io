@@ -666,8 +666,8 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     border-top-color: #A4AABA;
 }
 .top-nav ul.top-menu > li > a:hover .caret {
-    border-bottom-color: #000;
-    border-top-color: #000;
+    border-bottom-color: #011628;
+    border-top-color: #011628;
 }
 
 .log-arrow-up {
