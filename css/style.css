@@ -278,14 +278,6 @@ p {
   padding-bottom: 90px;
 }
 
-.paddsections {
-  padding-top: 90px;
-  padding-bottom: 90px !important;
-}
-
-.hvr-shutter-in-horizontal::before {
-  background: #333;
-}
 
 .hvr-shutter-in-horizontal:hover {
   background: #ff6d6d;
