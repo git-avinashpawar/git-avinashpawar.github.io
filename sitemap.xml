@@ -1,0 +1,27 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+<loc>https://avinashpawar.dev/</loc>
+<lastmod>2023-03-25T03:26:53+00:00</lastmod>
+<priority>1.00</priority>
+</url>
+<url>
+<loc>https://avinashpawar.dev/index.html</loc>
+<lastmod>2023-03-25T03:26:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://avinashpawar.dev/resume.pdf</loc>
+<lastmod>2023-03-25T03:26:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://avinashpawar.dev/Quiz/index.html</loc>
+<lastmod>2023-03-25T03:26:53+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://avinashpawar.dev/Quiz/info.html</loc>
+<lastmod>2023-03-25T03:26:53+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+</urlset>
