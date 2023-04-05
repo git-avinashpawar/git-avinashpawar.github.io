@@ -1,4 +1,4 @@
-# ProjectX-v0.github.io
-ProjectX-v0's Website
+# avinashpawar.dev
+avinashpawar.dev Website
 
 
