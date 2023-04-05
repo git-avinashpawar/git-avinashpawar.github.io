@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*!
   Ionicons, v2.0.0
   Created by Ben Sperry for the Ionic Framework, http://ionicons.com/
@@ -20,6 +21,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .ion-social-facebook:before,
 .ion-social-facebook-outline:before,
 .ion-social-linkedin:before,
@@ -36,6 +38,8 @@
 .ion-monitor:before,
 .ion-code-working:before,
 .ion-paintbrush:before,
+.ion-navicon-round:before,
+.ion-navicon:before,
 .ion-android-phone-portrait:before {
   display: inline-block;
   font-family: "Ionicons";
@@ -65,6 +69,7 @@
 .ion-social-linkedin-outline:before {
   content: "\f238";
 }
+
 .ion-social-instagram:before {
   content: "\f351";
 }
@@ -80,6 +85,7 @@
 .ion-social-github-outline:before {
   content: "\f232";
 }
+
 .ion-ios-analytics:before {
   content: "\f3ce";
 }
@@ -87,6 +93,7 @@
 .ion-ios-analytics-outline:before {
   content: "\f3cd";
 }
+
 .ion-ios-flask:before {
   content: "\f431";
 }
@@ -94,18 +101,31 @@
 .ion-ios-flask-outline:before {
   content: "\f430";
 }
+
 .ion-wrench:before {
   content: "\f2ba";
 }
+
 .ion-monitor:before {
   content: "\f20a";
 }
+
 .ion-code-working:before {
   content: "\f270";
 }
+
 .ion-paintbrush:before {
   content: "\f4d5";
 }
+
 .ion-android-phone-portrait:before {
   content: "\f3a2";
+}
+
+.ion-navicon:before {
+  content: "\f20e";
+}
+
+.ion-navicon-round:before {
+  content: "\f20d";
 }
