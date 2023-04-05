@@ -40,7 +40,7 @@
 .ion-paintbrush:before,
 .ion-navicon-round:before,
 .ion-navicon:before,
-.ion-android-phone-portrait:before {
+.ion-android-phone-portrait:before,.ion-android-compass:before,.ion-email:before {
   display: inline-block;
   font-family: "Ionicons";
   speak: none;
@@ -52,6 +52,12 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.ion-android-compass:before {
+  content: "\f37c";
+}
+.ion-email:before {
+  content: "\f132";
 }
 
 .ion-social-facebook:before {
