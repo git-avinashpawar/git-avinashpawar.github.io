@@ -139,11 +139,13 @@ jQuery(document).ready(function ($) {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $(".contactForm").find("input, textarea").val("");
+          $('#submit').val('Send message');
           //alert("Your Response Recorded");
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
           $("#errormessage").html("Error Occureed! Please Fill Again.");
+          $('#submit').val('Send message');
         }
       },
     });

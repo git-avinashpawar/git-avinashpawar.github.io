@@ -44,6 +44,8 @@
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
+  font-family: "Nixie One", cursive;
+  font-weight: 600;
 }
 
 .journal-txt h4 a:hover {
@@ -56,81 +58,21 @@
 }
 
 .post-meta ul li {
-  font-size: 12px;
+  font-size: 15px;
   font-weight: normal;
   margin-left: 8px;
   margin-right: 8px;
   text-transform: capitalize;
   display: inline-block;
   float: none;
+  color: #000000;
 }
 
 .content-main .post-meta a {
-  color: #a2a2a2;
+  color: #000000;
   margin-left: 5px;
 }
 
-/* Commonts */
-
-.comments {
-  background: #fff;
-}
-
-.entry-comments h6 {
-  margin-right: 10px;
-  font-size: 13px;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-}
-
-.entry-comments-item {
-  margin-top: 40px;
-  padding-bottom: 40px;
-  border-bottom: 1px solid #f2f2f2;
-}
-
-.entry-comments-avatar {
-  position: absolute;
-  display: block;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-}
-
-.entry-comments-body {
-  padding-left: 86px;
-}
-
-.entry-comments-author {
-  margin-right: 10px;
-  font-size: 13px;
-  color: #292929;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-}
-
-.rep {
-  font-size: 13px;
-  color: #292929;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  text-transform: capitalize;
-}
-
-.entry-comments span a {
-  font-size: 13px;
-  color: #999;
-}
-
-.entry-comments-reply {
-  padding-left: 10%;
-}
-
-/* Commonts form */
-
-.cmt {
-  background: #fff;
-}
 
 blockquote {
   padding: 40px;
