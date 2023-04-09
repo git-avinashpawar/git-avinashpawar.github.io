@@ -22,19 +22,19 @@ $(document).ready(function () {
     $(this).addClass("active");
 
     var target = this.hash,
-      menu = target;
-
+    menu = target;
     target = $(target);
+
     $("html, body")
       .stop()
       .animate(
         {
-          scrollTop: target.offset().top - 80,
+          scrollTop: target.offset().top - 50,
         },
         500,
         "swing",
         function () {
-          window.location.hash = target.selector;
+          //window.location.hash = menu; //shows #in address
           $(document).on("scroll", onScroll);
         }
       );
