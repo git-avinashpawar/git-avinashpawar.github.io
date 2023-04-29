@@ -423,10 +423,11 @@ nav ul li {
 
 #about .about-descr .p-heading {
   font-family: "Nixie One", cursive;
-  font-size: 25px;
+  font-size: 24px;
   text-align: left;
   font-weight: 800;
   color: black;
+  text-align: justify;
 }
 
 #about .about-descr .separator {
