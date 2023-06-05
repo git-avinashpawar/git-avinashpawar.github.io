@@ -369,7 +369,7 @@ nav ul li {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: calc(2vh + 1.5vw);
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;

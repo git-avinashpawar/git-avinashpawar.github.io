@@ -39,6 +39,8 @@
 .ion-code-working:before,
 .ion-paintbrush:before,
 .ion-navicon-round:before,
+.ion-arrow-graph-up-right:before,
+.ion-cloud:before,
 .ion-navicon:before,
 .ion-android-phone-portrait:before,.ion-android-compass:before,.ion-email:before {
   display: inline-block;
@@ -134,4 +136,10 @@
 
 .ion-navicon-round:before {
   content: "\f20d";
+}
+.ion-arrow-graph-up-right:before {
+  content: "\f262";
+}
+.ion-cloud:before {
+  content: "\f12b";
 }

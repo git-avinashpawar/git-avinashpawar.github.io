@@ -2,6 +2,7 @@
   display: block !important;
   position: relative;
 }
+
 .center-block {
   display: block;
   margin-left: auto;
@@ -33,7 +34,6 @@
 .journal-txt h4 a {
   display: block;
   text-align: center;
-  padding: 30px;
   font-size: 25px;
   line-height: 24px;
   margin: 0 0 13px 0;
@@ -44,7 +44,7 @@
   -o-transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
-  font-family: "Nixie One", cursive;
+
   font-weight: 600;
 }
 
@@ -66,6 +66,7 @@
   display: inline-block;
   float: none;
   color: #000000;
+  padding-top: 25px;
 }
 
 .content-main .post-meta a {
@@ -76,8 +77,63 @@
 
 blockquote {
   padding: 40px;
-  background-color: #f2f2f2;
+  background-color: #caee91;
   margin: 30px 0;
   border: none;
   border-left: 4px solid #ff6d6d;
+  font-family: 'Courier New', Courier, monospace;
+  color: #000000;
+}
+
+
+.gallery-info {
+  text-align: center;
+  display: block;
+  font-size: 12px;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.header .lead {
+  max-width: 620px;
+}
+
+.white h4,
+.white p {
+  color: #fff;
+}
+
+.bor {
+  border: 2px solid #ff6d6d;
+  justify-content: center;
+  margin-bottom: 10px;
+  transition: ease-in-out 0.3s;
+}
+
+.bor:hover {
+  border: 3px solid #ff3f3f;
+  transform: translateY(-10px);
+}
+
+#project .project-img img {
+  width: 100%;
+  object-fit: cover;
+  padding: 20px 5px 20px 5px;
+
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.proj-title {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 500;
+  margin: 8px;
+}
+
+.proj-desc {
+  color: #000000;
+  font-size: 18px;
+  margin: 8px;
 }
