@@ -66,7 +66,6 @@
   display: inline-block;
   float: none;
   color: #000000;
-  padding-top: 25px;
 }
 
 .content-main .post-meta a {
@@ -77,7 +76,7 @@
 
 blockquote {
   padding: 40px;
-  background-color: #caee91;
+  background-color: #fff;
   margin: 30px 0;
   border: none;
   border-left: 4px solid #ff6d6d;
@@ -136,4 +135,45 @@ blockquote {
   color: #000000;
   font-size: 18px;
   margin: 8px;
+}
+
+.portfolio-info p {
+  color: #000000;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+.portfolio-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+  color: #000000;
+}
+
+.portfolio-info ul li+li {
+  margin-top: 10px;
+}
+
+.portfolio-info h3 {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.portfolio-info-list ul {
+  list-style-type: decimal;
+  padding: 0 3vw 0 3vw;
+  font-size: 16px;
+  color: #000000;
+}
+
+.portfolio-info-list li {
+  padding-top: 10px;
 }

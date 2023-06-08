@@ -813,3 +813,16 @@ nav ul li {
 .credits {
   font-size: 13px;
 }
+
+.journal-info:hover {
+  transform: translateY(-10px);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.blog-thumbnail:hover {
+  border: 2px solid #ff6d6d;
+}
+
+.blog-thumbnail img {
+  padding-top: 15px;
+}
