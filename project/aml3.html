@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- meta -->
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Avinash Pawar | Graduate Student @ IUB</title>
+
+  <meta content="Avinash Pawar | Data Engineer | Software Developer | Graduate Student @ Indiana University Bloomington"
+    name="description" />
+  <meta name="robots" content="index, follow" />
+  <meta content="Avinash Pawar, Indiana University Bloomington, Data Science, Software Developer " name="keywords" />
+
+  <!-- Bootstrap CSS File -->
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Libraries CSS Files -->
+  <link href="../lib/ionicons/css/ionicons.min.css" rel="stylesheet" />
+
+  <!-- Blog Stylesheet File -->
+  <link href="../css/blog.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="../css/style.css" rel="stylesheet" />
+
+  <!-- Responsive css -->
+  <link href="../css/responsive.css" rel="stylesheet" /> <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+  <link rel="shortcut icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png" />
+  <link rel="shortcut icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png" />
+</head>
+
+<body>
+  <!-- start section navbar -->
+  <nav id="main-nav1" style="display: block; z-index: 1">
+    <div class=" row">
+      <div class="container">
+        <div class="logo">
+          <a href="../index.html"><img src="../images/logo.png" alt="website logo" /></a>
+        </div>
+
+        <div class="responsive">
+          <i><a href="projects.html" class="smoothScroll"
+              style="padding:2px 0 0 0; margin-right:10px;display: block;font-size: 20px;color: #011628;font-style: normal;">
+              ← Back</a></i>
+        </div>
+
+        <ul class="nav-menu list-unstyled">
+          <li class="smoothScroll">&nbsp;</li>
+          <li><a href="projects.html" class="smoothScroll"> ← Back</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+  <!-- start section main content -->
+  <div class="main-content paddsection">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-12 col-md-offset-2">
+          <div class="row">
+            <div class="container-main single-main">
+              <div class="col-md-12">
+                <div class="block-main mb-30">
+
+                  <div class="content-main single-post padDiv">
+                    <div class="journal-txt p-4">
+                      <h4>
+                        <a href="#">Exploring Fashion MNIST: Clustering, Visualization, Neural Network Training, and
+                          Performance Evaluation</a>
+                      </h4>
+
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-7" style="margin-bottom: 2vh;"><img src="../images/ml.jpg"
+                          class="img-responsive center-block" alt="" />
+                      </div>
+                      <div class="col-lg-5  portfolio-info ">
+                        <h3 pt-3>Project Information</h3>
+                        <ul>
+                          <li><strong>Category</strong>: Machine Learning</li>
+                          <li><strong>Project date</strong>: 31 Mar, 2023</li>
+                          <li><strong>Project URL</strong>: <a
+                              href="https://github.com/git-avinashpawar/AML">https://github.com/git-avinashpawar/AML</a>
+                          </li>
+
+                        </ul>
+
+                        <p>
+                          <strong>Technologies used :</strong> Python, Jupyter Notebook, Linux, Shell, Git, Github
+                        </p>
+
+                      </div>
+
+                    </div>
+                    <div class="col-lg-12" style="
+                    display: flex;
+                    justify-content: center;
+                    padding: 2vh ;
+                  ">
+                      <a id="submit" href="https://github.com/git-avinashpawar/AML" target="_blank"
+                        class="btn btn-defeault btn-send">View on Github</a>
+                    </div>
+
+                    <p>
+                      In the "Fashion MNIST Insights" project, I delved into the Fashion MNIST dataset to gain valuable
+                      insights and perform various data analysis tasks. The project involved clustering analysis,
+                      dimensionality reduction using PCA, training a Random Forest classifier, visualizing data in
+                      reduced dimensions, and building a feedforward neural network using Keras. Additionally, I
+                      compared different learning rates and activation functions to evaluate their impact on model
+                      performance and accuracy.
+                    </p>
+                    <div class="portfolio-info-list ">
+                      <p>The following steps were undertaken to explore and analyze the dataset:</p>
+                      <ul>
+                        <li>
+                          <strong>Dataset Preparation:</strong>
+                          <br>
+                          To begin, I downloaded and loaded the Fashion MNIST dataset, which consists of 70,000
+                          grayscale images of 10 different clothing categories. I split the dataset into training
+                          (50,000 images), validation (10,000 images), and test (10,000 images) sets, maintaining the
+                          same proportions as in previous assignments.
+                        </li>
+                        <li>
+                          <strong>PCA and Random Forest Classifier:</strong>
+                          <br>
+                          In this step, I applied Principal Component Analysis (PCA) to the training dataset to reduce
+                          dimensionality. I determined the number of components required to preserve 95% of the
+                          variance. By using the reduced dataset, I trained a Random Forest classifier and evaluated its
+                          performance on the test set. A key aspect of analysis involved comparing the training time
+                          with that of previous assignments.
+                        </li>
+                        <li>
+                          <strong>Visualization:</strong>
+                          <br>
+                          To visualize the impact of PCA, I randomly selected and plotted 10 images in their original
+                          form. Subsequently, I plotted the same set of images after retaining 95% of the variance using
+                          PCA. This allowed for a visual comparison of the images before and after dimensionality
+                          reduction. Additionally, I computed the variance explained by the first two principal
+                          components.
+                        </li>
+                        <li>
+                          <strong>Dimensionality Reduction Visualization:</strong>
+                          <br>
+                          Using PCA, t-SNE, LLE, and MDS (Multi-Dimensional Scaling) techniques, I reduced the
+                          dimensionality of the dataset to two dimensions. For each method, I plotted 1000 random images
+                          from the training set in a scatterplot, using 10 different colors to represent the target
+                          class of each image. Finally, I expressed my preference for a particular visualization
+                          technique and explained the reasons behind it.
+                        </li>
+                        <li>
+                          <strong>Clustering with K-Means:</strong>
+                          <br>
+                          Taking 10,000 samples from the training portion of the Fashion MNIST dataset, I applied
+                          K-Means clustering. To expedite the process, I employed PCA for dimensionality reduction. To
+                          determine an appropriate number of clusters, I utilized one of the techniques covered in
+                          class. Finally, I visualized the clusters, showcasing a subset of images within each cluster
+                          and inspecting for similarity in clothing items.
+                        </li>
+                        <li>
+                          <strong>Clustering with Gaussian Mixture Model (GMM):</strong>
+                          <br>
+                          Similarly, I selected 10,000 samples from the training set and performed clustering using a
+                          Gaussian Mixture Model. Employing PCA for dimensionality reduction, I ensured an optimal
+                          number of clusters based on established techniques. Visualizing the clusters, I examined the
+                          similarity of clothing items within each cluster. Furthermore, I generated 20 new clothing
+                          items using the GMM model and visualized them by employing the inverse_transform() method.
+                        </li>
+                        <li>
+                          <strong>Building a Feedforward Neural Network:</strong>
+                          <br>
+                          Using Keras within TensorFlow, I constructed a fully connected (dense) feedforward neural
+                          network with two hidden layers. The first hidden layer contained 200 neurons, while the second
+                          hidden layer contained 50 neurons. Both hidden layers employed the ReLU activation function.
+                          The network was trained for 100 epochs, and I plotted the training and validation loss and
+                          accuracy for three different learning rates.
+                        </li>
+                        <li>
+                          <strong>Model Evaluation and Analysis:</strong>
+                          <br>
+                          For the best-performing learning rate, I evaluated the network's performance on the test
+                          portion of the Fashion MNIST dataset, reporting the loss and accuracy metrics. Additionally, I
+                          determined the total number of parameters in the network, differentiating between regular
+                          parameters and bias parameters. This analysis provided insights into the network's complexity
+                          and the impact of bias on its performance.
+                        </li>
+                        <li>
+                          <strong>Hidden Layers with Linear Activation Functions:</strong>
+                          <br>
+                          To explore the impact of activation functions on accuracy, I repeated the previous steps but
+                          used linear activation functions for the hidden layers. This allowed for a comparison of the
+                          network's performance with the ReLU activation functions. Finally, I discussed the observed
+                          changes in accuracy and provided an explanation for the effects of linear activation
+                          functions.
+                        </li>
+
+
+                      </ul>
+                      <p>The "Fashion MNIST Insights" project encompassed a comprehensive analysis of the Fashion MNIST
+                        dataset. Through dimensionality reduction, clustering, visualization, and neural network
+                        training, I gained valuable insights into the dataset's characteristics and explored various
+                        data analysis techniques. By comparing different approaches, such as PCA, t-SNE, LLE, MDS, and
+                        different activation functions in neural networks, I enhanced my understanding of the strengths
+                        and limitations of each method. This project demonstrated my proficiency in data preprocessing,
+                        visualization, modeling, and evaluation, showcasing my skills as a data science graduate and
+                        providing valuable contributions to the field of fashion image analysis.</p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--  </div> -->
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://github.com/git-avinashpawar" target="_blank" aria-label="Avinash's Github"><i
+                class="ion-social-github"></i></a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/avinash-m-pawar/" target="_blank" aria-label="Avinash's Linkedin"><i
+                class="ion-social-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/insta.avinashpawar/" target="_blank" aria-label="Avinash's Instagram"><i
+                class="ion-social-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/f.AvinashPawar" target="_blank" aria-label="Avinash's Facebook"><i
+                class="ion-social-facebook"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <p>&copy; Copyrights Avinash Pawar. All rights reserved.</p>
+
+      <div class="credits">
+        Made By
+        <a href="https://avinashpawar.dev/" aria-label="Avinash's Website">Avinash Pawar</a>
+      </div>
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="../lib/jquery/jquery.min.js"></script>
+  <script src="../lib/jquery/jquery-migrate.min.js"></script>
+  <script src="../lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../lib/typed/typed.js"></script>
+  <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="../lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="../contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="../js/main.js"></script>
+
+</body>
+
+</html>
