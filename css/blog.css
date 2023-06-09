@@ -177,3 +177,15 @@ strong {
 .portfolio-info-list li {
   padding-top: 10px;
 }
+
+.img-r {
+  max-width: 500px;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .img-r {
+    max-width: 300px;
+    height: auto;
+  }
+}
