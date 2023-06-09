@@ -68,26 +68,33 @@
                   <div class="content-main single-post padDiv">
                     <div class="journal-txt p-4">
                       <h4>
-                        <a href="#"> COVID-19 Awarness Quiz</a>
+                        <a href="#">Distributed Map-Reduce based Search Engine </a>
                       </h4>
 
                     </div>
                     <div class="row">
-                      <div class="col-lg-7" style="margin-bottom: 2vh;"><img src="../images/proj/suk.png"
+                      <div class="col-lg-7" style="margin-bottom: 2vh;"><img src="../images/proj/ecc.png"
                           class="img-responsive center-block" alt="" />
                       </div>
                       <div class="col-lg-5  portfolio-info ">
                         <h3 pt-3>Project Information</h3>
                         <ul>
-                          <li><strong>Category</strong>: Web design, Volunteer</li>
-                          <li><strong>Project date</strong>: 24 April, 2020</li>
+                          <li><strong>Category</strong>:Data Engineering, Cloud Engineering </li>
+                          <li><strong>Project date</strong>: 09 Nov, 2021</li>
                           <li><strong>Project URL</strong>: <a
-                              href="../Quiz/index.html">https://avinashpawar.dev/Quiz/</a></li>
+                              href="https://github.com/git-avinashpawar/MapReduce-based-Search-Engine">Github:
+                              MapReduce-based-Search-Engine</a>
+                          </li>
+
+                          <li><strong>Demo</strong>: <a target="_blank"
+                              href="https://avinashpawar.dev/A5-ECC/index.html">https://avinashpawar.dev/A5-ECC/index.html</a>
+                          </li>
 
                         </ul>
 
                         <p>
-                          <strong>Technologies used :</strong> HTML5, CSS3, Bootstrap5, Firebase, Git, Github
+                          <strong>Technologies used :</strong> Google Cloud FAAS, Python, NodeJs, HTML5, CSS3, Linux,
+                          Shell, Git, Github
                         </p>
 
                       </div>
@@ -98,60 +105,80 @@
                     justify-content: center;
                     padding: 2vh ;
                   ">
-                      <a id="submit" href="https://avinashpawar.dev/Quiz/" target="_blank"
-                        class="btn btn-defeault btn-send">View a Demo</a>
+                      <a id="submit" href="https://github.com/git-avinashpawar/MapReduce-based-Search-Engine"
+                        target="_blank" class="btn btn-defeault btn-send">View on Github</a>
                     </div>
 
-                    <p class="mb-30">
-                      Introducing an impactful project that was part of the COVID-19 awareness program at Shivaji
-                      University, Kolhapur. As a Computer Science student and NSS Volunteer, I developed a highly
-                      engaging and
-                      educational tool called the COVID-19 Awareness Quiz, which received an astounding response of over
-                      1 million unique participants within just one week.
-                      It is a project that
-                      embodies the collaboration between data science and social responsibility.
-                    </p>
-                    <p class="mb-30">
-                      This project was built using a combination of HTML, CSS, JavaScript, and Firebase, leveraging the
-                      power of these technologies to create an interactive and informative quiz. As a vital component of
-                      Shivaji University's awareness program, the quiz played a crucial role in disseminating knowledge
-                      and raising awareness about COVID-19 among students, faculty, and the wider community.
+                    <p>
+                      The Map-Reduce based Search Engine is a powerful search solution that delivers lightning-fast
+                      search results. Leveraging the Map-Reduce paradigm, it efficiently processes and queries thousands
+                      of Project Gutenberg books. The system utilizes Google Cloud Functions to mine and extract
+                      relevant information from the books, enabling quick and accurate search functionality.
+                      <br><br>
+                      The project comprises several key components to facilitate the search engine's operations. The
+                      Mapper function plays a crucial role by taking input in the form of book links, downloading the
+                      books from the internet, and performing the map() operation on the data. The processed data is
+                      then stored in a mapper.json file and uploaded to a shared cloud bucket. The Mapper function is
+                      implemented using Node.js.
+                      <br><br>
+                      The Reducer function takes the mapper.json file as input, downloads it from the shared disk, and
+                      performs the reduce() operation on the data. The results are stored in a reducer.json file, which
+                      is then uploaded to the shared cloud bucket. Similar to the Mapper function, the Reducer function
+                      is also developed using Node.js.
+                      <br><br>
+                      The controller acts as a communication hub between the Mapper and Reducer functions. It is
+                      responsible for invoking both functions and orchestrating the merge of intermediate outputs from
+                      the map() and reduce() operations during each iteration. The controller is implemented using
+                      Node.js as well.
+                      <br><br>
+                      The project includes a web user interface (UI) that serves as the endpoint for the search engine
+                      system. The UI enables users to interact with the search engine, input their search queries, and
+                      display the search results. The web UI also invokes the cloud functions and facilitates the smooth
+                      functioning of the search engine. Node.js is utilized for implementing the web UI component.
                     </p>
 
-                    <div class="portfolio-info-list ">
-                      <p>Technical Specifications: </p>
+
+                    <!-- <div class="portfolio-info-list ">
+                      <strong>Mapper Function:</strong>
+
                       <ul>
-                        <li><strong>HTML:</strong> HTML formed the foundation of the COVID-19 Awareness Quiz, enabling
-                          the creation of a structured and intuitive user interface. It facilitated the presentation of
-                          quiz questions, options, and other essential elements in a user-friendly manner.</li>
-                        <li><strong>CSS:</strong> CSS played a crucial role in enhancing the visual appeal and overall
-                          user experience of the quiz. By applying custom styles and designs, CSS made the quiz
-                          interface visually engaging, aligning it with the branding and aesthetic of the awareness
-                          program.</li>
-                        <li><strong>JavaScript:</strong> JavaScript added interactivity and dynamic functionality to the
-                          COVID-19 Awareness Quiz. It enabled real-time validation of answers, progress tracking, and
-                          score calculation, providing participants with immediate feedback and an immersive quiz
-                          experience.</li>
-                        <li><strong>Firebase:</strong> The integration of Firebase into the quiz ensured seamless user
-                          authentication, secure data storage, and real-time updates. Leveraging this powerful platform,
-                          the quiz efficiently managed and stored participants' responses, offering a reliable and
-                          scalable solution for data storage and retrieval.</li>
-
+                        <li>Language: Node.js</li>
+                        <li>Downloads books from provided links</li>
+                        <li>Performs map() operation on the downloaded books</li>
+                        <li>Stores processed data in mapper.json file</li>
+                        <li>Uploads mapper.json to a shared cloud bucket</li>
                       </ul>
-                    </div>
+                      <strong>Reducer Functions:</strong>
 
-                    <p class="mb-30">
-                      As part of Shivaji University's awareness program, the COVID-19 Awareness Quiz garnered an
-                      astounding response of over 1 million unique participants within a week. This achievement is a
-                      testament to the importance and impact of raising awareness about COVID-19 within the university
-                      community.
-                    </p>
+                      <ul>
+                        <li>Language: Node.js</li>
+                        <li>Takes mapper.json file as input</li>
+                        <li>Downloads file from shared disk</li>
+                        <li>Performs reduce() operation on the downloaded file</li>
+                        <li>Stores processed data in reducer.json file</li>
+                        <li>Uploads reducer.json to a shared cloud bucket</li>
+                      </ul>
+                      <strong>The Controller (Barrier):</strong>
 
-                    <p class="mb-30">
-                      Upon completion of the COVID-19 Awareness Quiz, participants receives a certificate,
-                      recognizing their commitment to increasing knowledge and promoting responsible behavior during the
-                      pandemic.
-                    </p>
+                      <ul>
+                        <li>Language: Node.js</li>
+                        <li>Handles communication between Mapper and Reducer functions</li>
+                        <li>Invokes the Mapper and Reducer functions</li>
+                        <li>Merges intermediate outputs from map() and reduce() operations</li>
+                        <li>Orchestrates the overall process</li>
+                      </ul>
+                      <strong>Web UI:</strong>
+
+                      <ul>
+                        <li>Language: Node.js</li>
+                        <li>Provides an interface for user interaction</li>
+                        <li>Invokes cloud functions for search operations</li>
+                        <li>Accepts user input for search queries</li>
+                        <li>Displays search results to the user</li>
+                      </ul>
+                    </div> -->
+
+
                   </div>
                 </div>
               </div>
@@ -161,10 +188,6 @@
       </div>
     </div>
   </div>
-  <!--  </div> -->
-
-  <!-- start section main content -->
-
   <!-- start section journal -->
   <div id="journal-blog" class="text-left paddsection" style="padding-bottom: 0px;">
 
@@ -181,11 +204,10 @@
           <div class="col-lg-4 col-md-6">
             <div class="journal-info mb-30">
 
-              <img src="../images/proj/suk1.png" class="img-responsive" alt="img">
+              <img src="../images/proj/ecc1.png" class="img-responsive" alt="img">
 
               <div class="journal-txt">
-                <p class="separator">Info Page: Collect user data with a simple form, capturing name and email for
-                  certificate creation.
+                <p class="separator">Word search page: Displays search results for the word 'book'.
                 </p>
 
               </div>
@@ -195,11 +217,10 @@
           <div class="col-lg-4 col-md-6">
             <div class="journal-info mb-30">
 
-              <img src="../images/proj/suk2.png" class="img-responsive" alt="img">
+              <img src="../images/proj/ecc2.png" class="img-responsive" alt="img">
 
               <div class="journal-txt">
-                <p class="separator"> Quiz Page: Engage participants with an interactive quiz, testing their knowledge
-                  and promoting COVID-19 awareness.
+                <p class="separator"> Advanced search page: Customize your search by providing your own list of books.
                 </p>
 
               </div>
@@ -209,11 +230,10 @@
           <div class="col-lg-4 col-md-6">
             <div class="journal-info mb-30">
 
-              <img src="../images/proj/suk3.png" class="img-responsive" alt="img">
+              <img src="../images/proj/ecc.png" class="img-responsive" alt="img">
 
               <div class="journal-txt">
-                <p class="separator"> Certificate Page: View your quiz marks, celebrate your achievements, and download
-                  a personalized certificate for completion.
+                <p class="separator"> Word search page: Enter a word and instantly retrieve search results.
                 </p>
 
               </div>
@@ -225,8 +245,6 @@
       </div>
     </div>
   </div>
-  <!-- End section journal -->
-
   <!-- start section footer -->
   <div id="footer" class="text-center">
     <div class="container">
@@ -270,8 +288,6 @@
   <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
   <script src="../lib/magnific-popup/magnific-popup.min.js"></script>
   <script src="../lib/isotope/isotope.pkgd.min.js"></script>
-
-
 
   <!-- Contact Form JavaScript File -->
   <script src="../contactform/contactform.js"></script>
