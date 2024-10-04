@@ -175,3 +175,14 @@ $(window).load(function () {
     blogIsotope.isotope({ filter: $(this).data("filter") });
   });
 });
+
+// Redirection
+// Get the current URL path
+const currentUrl = window.location.href;
+
+// Check if the current URL starts with the incorrect case "/PragyaYantra"
+if (currentUrl.startsWith("https://avinashpawar.dev/PragyaYantra")) {
+    // Replace "PragyaYantra" with "pragyayantra" and redirect
+    const newUrl = currentUrl.replace("/PragyaYantra", "/pragyayantra");
+    window.location.href = newUrl;
+}
