@@ -142,29 +142,6 @@ $(document).ready(function () {
 
   // Call the functions
   magnifPopup();
-
-  // Redirection logic
-  const currentPath = window.location.pathname.toLowerCase();
-  console.log("Current path:", window.location.pathname);
-
-  // Check for incorrect path and redirect while preserving the path
-  if (
-    currentPath.startsWith("/pragyayantra") &&
-    !currentPath.startsWith("/pragyayantra")
-  ) {
-    const preservedPath = currentPath.replace(/\/PragyaYantra/i, ""); // Remove the incorrect part
-    const redirectUrl = "https://avinashpawar.dev/pragyayantra" + preservedPath; // Append preserved path
-    console.log("Redirecting to:", redirectUrl);
-    window.location.href = redirectUrl; // Redirect to the correct URL with preserved path
-  }
-
-  // Additional redirect for the root level
-  if (currentPath === "/PragyaYantra" || currentPath === "/PragyaYantra/") {
-    console.log(
-      "Redirecting root path to https://avinashpawar.dev/pragyayantra"
-    );
-    window.location.href = "https://avinashpawar.dev/pragyayantra";
-  }
 });
 
 // ========================================================================= //
