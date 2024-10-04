@@ -144,28 +144,26 @@ $(document).ready(function () {
   magnifPopup();
 
   // Redirection logic
-  // Redirection logic
   const currentPath = window.location.pathname.toLowerCase();
   console.log("Current path:", window.location.pathname);
 
-  // Check for incorrect casing and redirect if necessary
+  // Check for incorrect path and redirect while preserving the path
   if (
     currentPath.startsWith("/pragyayantra") &&
     !currentPath.startsWith("/pragyayantra")
   ) {
-    // Redirect to the correct path with lowercase
-    const correctPath = currentPath.replace(
-      /\/PragyaYantra/gi,
-      "/pragyayantra"
-    );
-    window.location.replace(
-      correctPath + window.location.search + window.location.hash
-    );
+    const preservedPath = currentPath.replace(/\/PragyaYantra/i, ""); // Remove the incorrect part
+    const redirectUrl = "https://avinashpawar.dev/pragyayantra" + preservedPath; // Append preserved path
+    console.log("Redirecting to:", redirectUrl);
+    window.location.href = redirectUrl; // Redirect to the correct URL with preserved path
   }
 
   // Additional redirect for the root level
   if (currentPath === "/PragyaYantra" || currentPath === "/PragyaYantra/") {
-    window.location.replace("/pragyayantra");
+    console.log(
+      "Redirecting root path to https://avinashpawar.dev/pragyayantra"
+    );
+    window.location.href = "https://avinashpawar.dev/pragyayantra";
   }
 });
 
