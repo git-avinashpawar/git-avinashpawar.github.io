@@ -831,3 +831,14 @@ nav ul li {
 .blog-thumbnail img {
   padding-top: 15px;
 }
+
+.conatainer-404 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  color: #000;
+}

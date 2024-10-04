@@ -142,6 +142,31 @@ $(document).ready(function () {
 
   // Call the functions
   magnifPopup();
+
+  // Redirection logic
+  // Redirection logic
+  const currentPath = window.location.pathname.toLowerCase();
+  console.log("Current path:", window.location.pathname);
+
+  // Check for incorrect casing and redirect if necessary
+  if (
+    currentPath.startsWith("/pragyayantra") &&
+    !currentPath.startsWith("/pragyayantra")
+  ) {
+    // Redirect to the correct path with lowercase
+    const correctPath = currentPath.replace(
+      /\/PragyaYantra/gi,
+      "/pragyayantra"
+    );
+    window.location.replace(
+      correctPath + window.location.search + window.location.hash
+    );
+  }
+
+  // Additional redirect for the root level
+  if (currentPath === "/PragyaYantra" || currentPath === "/PragyaYantra/") {
+    window.location.replace("/pragyayantra");
+  }
 });
 
 // ========================================================================= //
@@ -175,14 +200,3 @@ $(window).load(function () {
     blogIsotope.isotope({ filter: $(this).data("filter") });
   });
 });
-
-// Redirection
-// Get the current URL path
-const currentUrl = window.location.href;
-
-// Check if the current URL starts with the incorrect case "/PragyaYantra"
-if (currentUrl.startsWith("https://avinashpawar.dev/PragyaYantra")) {
-    // Replace "PragyaYantra" with "pragyayantra" and redirect
-    const newUrl = currentUrl.replace("/PragyaYantra", "/pragyayantra");
-    window.location.href = newUrl;
-}
