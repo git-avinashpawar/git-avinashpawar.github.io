@@ -12,26 +12,99 @@
 	<meta name="robots" content="index, follow" />
 	<meta content="Avinash Pawar, Indiana University Bloomington, Data Science, Software Developer " name="keywords" />
 
-	<!-- Bootstrap CSS File -->
-	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
-	<!-- Main Stylesheet File -->
-	<link href="css/style.css" rel="stylesheet" />
-
-	<!-- Responsive css -->
-	<link href="css/responsive.css" rel="stylesheet" />
-
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/png" href="images/favicon.png" />
-	<link rel="shortcut icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
-	<link rel="shortcut icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
+	<link rel="shortcut icon" type="image/png" href="../images/favicon.png" />
+	<style>
+		/* latin */
+		@font-face {
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 300;
+			src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2) format("woff2");
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+				U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+				U+FEFF, U+FFFD;
+		}
+
+		/* latin */
+		@font-face {
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: 700;
+			src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2) format("woff2");
+			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+				U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+				U+FEFF, U+FFFD;
+		}
+
+		body {
+			font-family: "Poppins", helvetica;
+		}
+
+		.conatainer-404 {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			height: 100vh;
+			margin: 0;
+			flex-direction: column;
+			color: #000;
+		}
+
+		#header {
+			background: url("../images/back.jpg") repeat scroll center center / cover;
+			height: 100vh;
+			width: 100%;
+		}
+
+		p {
+			font-size: 20px;
+			color: #011628;
+			line-height: 22px;
+		}
+
+		.btn {
+			background: #333;
+			border: medium none;
+			border-radius: 0;
+			color: #fff;
+			font-size: 12px;
+			height: 50px;
+			line-height: 50px;
+			padding: 0 30px;
+			text-transform: uppercase;
+		}
+
+		.btn:hover {
+			background: #827979;
+			border: medium none;
+			border-radius: 0;
+		}
+
+		a {
+			color: #011628;
+			text-decoration: none !important;
+		}
+
+		::-moz-selection {
+			background: #ff0000;
+			color: #011628;
+		}
+
+		::selection {
+			background: #dbbaf8;
+			color: #011628;
+		}
+	</style>
 </head>
 
 <body>
 	<!-- start section header -->
 	<div id="header" class="home">
 		<div class="conatainer-404">
-			<h1 style="font-size: 70px">404</h1>
+			<h1 style="font-size: 70px; margin: 0px;">404</h1>
 			<p> Oops We can't find the page that you are looking for :(</p>
 			<a style="margin-top: 20px;" href="https://avinashpawar.dev" class="btn btn-defeault btn-send">Go to
 				Homepage</a>
@@ -39,14 +112,6 @@
 	</div>
 	<!-- End section header -->
 
-
-	<!-- JavaScript Libraries -->
-	<script src="lib/jquery/jquery.min.js"></script>
-	<script src="lib/jquery/jquery-migrate.min.js"></script>
-	<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-	<!-- Template Main Javascript File -->
-	<script src="js/main.js"></script>
 </body>
 
 </html>
