@@ -108,7 +108,13 @@ jQuery(document).ready(function ($) {
     });
 
     if (ferror) return false;
-    else var str = $(this).serialize();
+
+    // --- honeypot check ---
+    var sub_subject = $("#sub-subject").val().trim();
+    if (sub_subject) {
+      console.warn("Bot detected! Blocking form.");
+      return false;
+    }
 
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -139,13 +145,13 @@ jQuery(document).ready(function ($) {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $(".contactForm").find("input, textarea").val("");
-          $('#submit').val('Send message');
+          $("#submit").val("Send message");
           //alert("Your Response Recorded");
         } else {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
           $("#errormessage").html("Error Occureed! Please Fill Again.");
-          $('#submit').val('Send message');
+          $("#submit").val("Send message");
         }
       },
     });
