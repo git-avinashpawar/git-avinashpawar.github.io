@@ -82,12 +82,19 @@ $(document).ready(function () {
 
   $(function () {
     typed.typed({
+      // strings: [
+      //   "Avinash Pawar.",
+      //   "Data Wizard.",
+      //   "Cloud Engineer.",
+      //   "Full Stack Developer.",
+      //   "Photographer.",
+      // ],
       strings: [
         "Avinash Pawar.",
-        "Data Wizard.",
-        "Cloud Engineer.",
-        "Full Stack Developer.",
-        "Photographer.",
+        "Building Scalable Data Systems.",
+        "Optimizing Cloud Workflows.",
+        "Transforming Data into Insights.",
+        "Capturing Stories Through My Lens.",
       ],
       typeSpeed: 100,
       loop: true,

@@ -112,7 +112,14 @@ jQuery(document).ready(function ($) {
     // --- honeypot check ---
     var sub_subject = $("#sub-subject").val().trim();
     if (sub_subject) {
-      console.warn("Bot detected! Blocking form.");
+      return false;
+    }
+    if (
+      (t = subject + message).replace(/[^a-z]/gi, "").match(/[^aeiou]{5,}/i) ||
+      (/[A-Z]/.test(t) && /[a-z]/.test(t) && t.length > 6) ||
+      (t.match(/[aeiou]/gi) || []).length / t.length < 0.25
+    ) {
+      $("#errormessage").addClass("show").html("Invalid text.");
       return false;
     }
 
